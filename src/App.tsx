@@ -49,6 +49,7 @@ function App() {
 
   useEffect(() => {
     fetchRandomGif();
+    shufflePeople();
   }, []);
 
   const fetchRandomGif = async () => {
