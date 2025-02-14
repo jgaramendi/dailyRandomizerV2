@@ -117,7 +117,7 @@ function App() {
   };  
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100">
+    <div className="min-h-screen bg-gradient-to-br from-[#E3F2FD] via-[#BBDEFB] to-[#90CAF9]">
       <div className="container mx-auto px-4 py-8">
         {/* Flex container for people list & GIF */}
         <div className="max-w-5xl mx-auto flex gap-6">
@@ -125,7 +125,7 @@ function App() {
           {/* People List */}
           <div className="flex-1 flex flex-col">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden flex-1">
-              <div className="p-6 bg-gradient-to-r from-indigo-500 to-purple-600">
+              <div className="p-6 bg-gradient-to-r from-[#1973B8] to-[#00A8E0]">
                 <div className="flex justify-between items-center">
                   <h1 className="text-3xl font-bold text-white">Daily Randomizer</h1>
                   <button
