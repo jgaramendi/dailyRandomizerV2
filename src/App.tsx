@@ -33,16 +33,14 @@ const EMOJIS = ['😄','😃','😀','😊','😉','😍','😘','😚','😗','
 
 function App() {
   const [people, setPeople] = useState<Person[]>([
-    { id: '1', name: 'roberto', emoji: '😄', active: false },
-    { id: '2', name: 'adri', emoji: '😊', active: false },
-    { id: '3', name: 'harold', emoji: '😎', active: false },
+    { id: '1', name: 'irene', emoji: '😄', active: false },
+    { id: '2', name: 'harold', emoji: '😊', active: false },
+    { id: '3', name: 'jon', emoji: '😎', active: false },
     { id: '4', name: 'javi', emoji: '🌟', active: false },
-    { id: '5', name: 'juanvi', emoji: '✨', active: false },
-    { id: '6', name: 'jon', emoji: '✨', active: false },
-    { id: '7', name: 'juanjo', emoji: '✨', active: false },
-    { id: '8', name: 'martin', emoji: '✨', active: false },
-    { id: '9', name: 'susana', emoji: '✨', active: false },
-    { id: '10', name: 'pedro', emoji: '✨', active: false },
+    { id: '5', name: 'juanjo', emoji: '✨', active: false },
+    { id: '6', name: 'martin', emoji: '✨', active: false },
+    { id: '7', name: 'erika', emoji: '✨', active: false },
+    { id: '8', name: 'arantxa', emoji: '✨', active: false },
   ]);
   const [selectedPerson, setSelectedPerson] = useState<string | null>(null);
   const [gif, setGif] = useState<string | null>(null);
