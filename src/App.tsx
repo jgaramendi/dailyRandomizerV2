@@ -40,7 +40,7 @@ function App() {
     { id: '5', name: 'juanjo', emoji: '✨', active: false },
     { id: '6', name: 'martin', emoji: '✨', active: false },
     { id: '7', name: 'erika', emoji: '✨', active: false },
-    { id: '8', name: 'arantxa', emoji: '✨', active: false },
+    { id: '8', name: 'arantxa', emoji: '✨', active: false }
   ]);
   const [selectedPerson, setSelectedPerson] = useState<string | null>(null);
   const [gif, setGif] = useState<string | null>(null);
